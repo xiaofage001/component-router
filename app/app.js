@@ -1,4 +1,4 @@
-angular.module('app', ['ngComponentRouter'])
+angular.module('app', ['ngComponentRouter', 'heroes'])
 .config(function($locationProvider) {
 	$locationProvider.html5Mode(true);
 })
